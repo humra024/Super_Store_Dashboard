@@ -180,13 +180,13 @@ st.subheader("3D Scatter Plot")
     
 xa = st.selectbox(
     'x axis',
-    ('Category','Region', 'Sales','Profit', 'Quantity'))
+    ('Category','Sub-Category','Region','State','Ship Mode','Sales','Profit','Discount','Quantity'))
 ya = st.selectbox(
     'y axis',
-    ('Category','Region', 'Sales','Profit', 'Quantity'))
+   ('Category','Sub-Category','Region','State','Ship Mode','Sales','Profit','Discount','Quantity'))
 za = st.selectbox(
     'z axis',
-    ('Category','Region', 'Sales','Profit', 'Quantity'))
+    ('Category','Sub-Category','Region','State','Ship Mode','Sales','Profit','Discount','Quantity'))
 
     
 fig = px.scatter_3d(filtered_df, x=xa, y=ya, z=za,
