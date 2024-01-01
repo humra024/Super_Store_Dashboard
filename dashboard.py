@@ -13,17 +13,17 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Superstore!", page_icon=":bar_chart", layout="wide")
-st.title(" :bar_chart: Sample Superstpre EDA")
+st.title(" :bar_chart: Superstpre EDA")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
-fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
-if fl is not None:
-    filename = fl.name
-    st.write(filename)
-    df = pd.read_csv(filename, encoding = "ISO-8859-1")
-else:
-    # os.chdir(r"C:\Users\AEPAC\Desktop\Streamlit")
-    df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
+# fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
+# if fl is not None:
+#     filename = fl.name
+#     st.write(filename)
+#     df = pd.read_csv(filename, encoding = "ISO-8859-1")
+# else:
+    # # os.chdir(r"C:\Users\AEPAC\Desktop\Streamlit")
+df = pd.read_csv("Superstore.csv", encoding = "ISO-8859-1")
     
     
 col1, col2 = st.columns((2))
@@ -175,6 +175,7 @@ with st.expander("View Data"):
 
 # ========
 
+st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 st.subheader("3D Scatter Plot")
     
 xa = st.selectbox(
@@ -192,5 +193,7 @@ fig = px.scatter_3d(filtered_df, x=xa, y=ya, z=za,
               color=xa)
 st.plotly_chart(fig,use_container_width=True)
 
+
+#https://superstoredashboard-arqgs3wxgrdlhg7as3g5zl.streamlit.app/
 
 
