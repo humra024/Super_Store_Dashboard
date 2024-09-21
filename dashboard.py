@@ -12,7 +12,8 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
-# Remove whitespace from the top of the page and sidebar
+
+st.set_page_config(page_title="Superstore!", page_icon=":bar_chart", layout="wide")
 st.markdown("""
         <style>
                .css-18e3th9 {
@@ -29,7 +30,6 @@ st.markdown("""
                 }
         </style>
         """, unsafe_allow_html=True)
-st.set_page_config(page_title="Superstore!", page_icon=":bar_chart", layout="wide")
 st.title(" :bar_chart: Superstpre EDA")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
