@@ -30,7 +30,7 @@ st.markdown("""
                 }
         </style>
         """, unsafe_allow_html=True)
-st.title(" :bar_chart: Superstpre EDA")
+st.title(" :bar_chart: Superstore EDA")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
 
 # fl = st.file_uploader(":file_folder: Upload a file",type=(["csv","txt","xlsx","xls"]))
