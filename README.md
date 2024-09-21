@@ -8,14 +8,14 @@ Hosted on: https://superstoredashboard-arqgs3wxgrdlhg7as3g5zl.streamlit.app/
 4. Created a user-friendly interface that enhanced data visualization and facilitated informed decision-making.
 5. Deployed dashboards on Streamlit platform, ensuring seamless accessibility and usability for stakeholders.
 
-Website SCreenshots:
+Website Screenshots:
 
-![Screenshot 2024-09-21 152016](https://github.com/user-attachments/assets/878cbaa1-07f4-4418-a523-9ed059f6b45a)
 
-![Screenshot 2024-09-21 150107](https://github.com/user-attachments/assets/ecb1bb19-16a7-42b6-82b3-5271a5c603f0)
-![Screenshot 2024-09-21 150145](https://github.com/user-attachments/assets/00668ea5-b24b-42fe-939f-d31f932ea836)
 
-![Screenshot 2024-09-21 150213](https://github.com/user-attachments/assets/39273abd-d733-4ad2-94b0-b3aa9c183836)
+![Screenshot 2024-09-21 152016](https://github.com/user-attachments/assets/e090c2f1-f71b-4018-8290-fb59749141c7)
+![Screenshot 2024-09-21 150107](https://github.com/user-attachments/assets/49400621-249d-438f-9b9b-9ac062919da5)
+![Screenshot 2024-09-21 150145](https://github.com/user-attachments/assets/7fddc2c7-46af-4e84-87e0-30767f220cec)
+![Screenshot 2024-09-21 150213](https://github.com/user-attachments/assets/8d5de5f9-202e-4b5b-b5ca-ca1a5dfef094)
+![Screenshot 2024-09-21 150437](https://github.com/user-attachments/assets/da024ced-f256-4865-b56b-2758fa815169)
 
-![Screenshot 2024-09-21 150437](https://github.com/user-attachments/assets/79307f48-78f4-4424-9144-be6209462d1d)
 
